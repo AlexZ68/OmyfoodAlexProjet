@@ -5,12 +5,12 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<link rel="stylesheet" media="screen" href="style.css">
-		<link rel="stylesheet" href="CSS/all.css">
+		<link rel="stylesheet" media="screen" href="css/style.css">
+		<link rel="stylesheet" href="css/style.css.map">
 		<link rel="preconnect" href="https://fonts.googleapis.com"> 
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 		<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">		
 		<title>Ohmyfood</title>	
 	</head>
 
@@ -18,14 +18,14 @@
 		<div id="bloc_page">
 			<header>
 				<div id="titre_principal"
-					<div class="logo">
+					<div class="logo-accueil">
 						<img src="img/logo/ohmyfood.png" alt="logo de Ohmyfood">
 					</div>
 				</div>
 			</header>
 			<nav>
 				<form action="#">
-					<a href="#"></a>
+					<i class="fas fa-map-marker-alt"></i>
 						<input type="search" id="lieu" placeholder="Paris, Belleville">
 				</form>
 				<h2>
@@ -35,14 +35,16 @@
 					Découvrez des restaurants d'exception, sélectionnés par nos sois.
 				</h3>
 				<button type="submit" class="exploration">
-					Explorer nos restaurants
+					<a href="#nos-restaurants">
+						Explorer nos restaurants
+					</a>
 				</button>
 			</nav>
 
 			<aside>
 				<div class="tuto">
 					<h2>
-						Fonctionneement
+						Fonctionnement
 					</h2>
 					<ol class="tuto-etape">
 						<li>
@@ -61,8 +63,8 @@
 				</div>
 			</aside>
 
-			<section>
-				<div class="restaurant">
+			<section id="nos-restaurants">
+				<div class="restaurants">
 					<ul class="etablissements">
 						<h2>
 							Restaurants
@@ -78,7 +80,7 @@
 								</p>
 								<i class="fal fa-heart"></i>
 							</a>
-							<a href="html/page-la-note-enchanté.html">
+							<a href="html/page-la-note-enchantee.html">
 								<img src="img/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="La note enchantée">
 								<h3>
 									La note enchantée
@@ -143,3 +145,4 @@
 			</footer>
 		</div>
 	</body>
+</html>
