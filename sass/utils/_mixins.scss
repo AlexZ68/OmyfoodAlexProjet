@@ -1,3 +1,36 @@
-@mixin header-titre {
+@mixin header-accueil {
     text-align: center;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin: auto;
+    box-shadow: 0 4px 6px -5px gray;
+    position: relative;
+    img {
+        max-width: 50%;
+    }
+
+}
+
+@mixin text-petit {
+    font-size: small;
+}
+
+@mixin text-moyen {
+    font-size: large;
+}
+
+@mixin text-grand {
+    font-size: x-large;
+}
+
+@mixin bouton {
+    all: initial;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    @include text-moyen;
+    background: $couleur-secondaire;
+    padding: 15px;
+    border-radius: 50px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
