@@ -1,0 +1,35 @@
+nav {
+    text-align: center;
+    background-color: rgb(252, 246, 246);
+}
+
+form {
+    background: rgb(240, 235, 235);
+    width: 100%;
+    padding-bottom: 15px;
+    padding-top: 18px;
+    ::placeholder {
+        all: initial;
+        background: rgb(240, 235, 235);
+    }
+}  
+
+h2 {
+    @include text-grand
+}
+
+.titre_secondaire {
+    padding-top: 30px;
+}
+
+h3 {
+    @include text-moyen
+}
+
+.sous_titre {
+    font-weight: lighter; 
+}
+
+button {
+    @include bouton
+}
