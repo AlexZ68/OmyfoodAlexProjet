@@ -7,7 +7,101 @@
 body {
   font-family: "Roboto", Arial, Helvetica, sans-serif; }
 
+a:link {
+  text-decoration: none; }
+
+@media (max-width: 640px) {
+  * {
+    box-sizing: border-box; }
+
+  body {
+    width: auto;
+    margin: 0px;
+    padding: 0px; } }
 #titre_principal {
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  margin: auto;
+  box-shadow: 0px 1px 5px #bcafaf;
+  position: relative; }
+  #titre_principal img {
+    max-width: 50%; }
+
+nav {
+  text-align: center;
+  background-color: #fcf6f6; }
+
+form {
+  background: #f0ebeb;
+  width: 100%;
+  padding-bottom: 15px;
+  padding-top: 18px; }
+  form ::placeholder {
+    all: initial;
+    background: #f0ebeb; }
+
+h2 {
+  font-size: x-large; }
+
+.titre_secondaire {
+  padding-top: 30px; }
+
+h3 {
+  font-size: large; }
+
+.sous_titre {
+  font-weight: lighter; }
+
+button {
+  all: initial;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: large;
+  background: #ff79DA;
+  padding: 15px;
+  border-radius: 50px;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  box-shadow: 0px 5px 10px #bcafaf; }
+
+aside {
+  padding: 30px 15px; }
+
+.tuto-etape li {
+  font-size: large;
+  border-radius: 20px;
+  background-color: #fcf6f6;
+  width: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 35px;
+  box-shadow: 0px 5px 10px #bcafaf; }
+
+.tuto-degustez {
+  background-color: #ff79DA; }
+
+.tuto-text {
+  padding-left: 20px; }
+
+section {
+  padding: 30px 15px;
+  background-color: #fcf6f6; }
+
+.etablissements {
+  display: flex;
+  flex-flow: column;
+  flex-basis: 100%; }
+  .etablissements img {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    object-fit: cover; }
+  .etablissements li {
+    font-size: large;
+    color: black; }
 
 /*# sourceMappingURL=style.css.map */
