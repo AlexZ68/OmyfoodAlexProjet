@@ -23,15 +23,22 @@
     font-size: x-large;
 }
 
-@mixin bouton {
+@mixin ombre {
+    box-shadow: 0px 5px 10px $couleur-ombre; 
+}
+
+@mixin bouton { /* modif dans nav */
     all: initial;
     font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: 500;
     @include text-moyen;
-    background: $couleur-secondaire;
-    padding: 15px;
+    background: linear-gradient($couleur-secondaire, $couleur-primaire);
+    padding: 15px 25px;
     border-radius: 50px;
-    color: white;
     margin-top: 20px;
     margin-bottom: 50px;
-    box-shadow: 0px 5px 10px $couleur-ombre;
+    @include ombre;
+    a {
+        color: white;
+    }
 }

@@ -1,0 +1,22 @@
+section {
+    padding: 30px 15px;
+    background-color: $background-tres-clair;
+}
+
+.etablissements {
+    display: flex;
+    flex-flow: column;
+    flex-basis: 100%;
+    img {
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        object-fit: cover;
+    }
+    li {
+        @include text-moyen;
+        color: black;
+
+    }
+}

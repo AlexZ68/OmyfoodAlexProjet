@@ -1,16 +1,15 @@
 nav {
     text-align: center;
-    background-color: rgb(252, 246, 246);
-}
+    background-color: $background-tres-clair;
+} 
 
-form {
+#lieu {
     background: rgb(240, 235, 235);
     width: 100%;
     padding-bottom: 15px;
     padding-top: 18px;
-    ::placeholder {
-        all: initial;
-        background: rgb(240, 235, 235);
+    i {
+        margin-right: 10px;
     }
 }  
 
@@ -30,6 +29,6 @@ h3 {
     font-weight: lighter; 
 }
 
-button {
-    @include bouton
+.exploration {
+    @include bouton;
 }
