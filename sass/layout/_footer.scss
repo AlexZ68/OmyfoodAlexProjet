@@ -1,0 +1,31 @@
+.footer {
+    background-color: #3D3D3D;
+    .contenu {
+        display: flex;
+        flex-direction: column;
+        padding-left: 15px;
+    }
+        .footer__logo {
+            font-family: "Shrikhand", Arial, Helvetica, sans-serif;
+            color: white;
+            margin: 10px;
+            margin-top: 20px;
+            font-size: x-large;
+        }
+        .footer__liste {
+            list-style: none;
+            font-size: large;
+            margin-top: 0px;
+            padding-left: 0px;
+        }
+        .footer__listelien {
+            margin: 10px;
+        }
+        .footer__lien {
+            color: white;
+        }
+        .footer__icon {
+            margin-right: 10px;
+            width: 15px;
+        }
+}
