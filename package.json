@@ -1,19 +1,19 @@
 {
-  "name": "projetohmyfood",
+  "name": "projet-ohmyfood",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch ./sass/main.scss:./css/style.css"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlexZ68/OmyfoodAlexProjet.git"
+    "url": "git+https://github.com/AlexZ68/Ziegler_Alexandre_3_ohmyfood_042022.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AlexZ68/OmyfoodAlexProjet/issues"
+    "url": "https://github.com/AlexZ68/Ziegler_Alexandre_3_ohmyfood_042022/issues"
   },
-  "homepage": "https://github.com/AlexZ68/OmyfoodAlexProjet#readme"
+  "homepage": "https://github.com/AlexZ68/Ziegler_Alexandre_3_ohmyfood_042022#readme",
+  "description": ""
 }

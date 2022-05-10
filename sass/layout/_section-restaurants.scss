@@ -3,20 +3,45 @@ section {
     background-color: $background-tres-clair;
 }
 
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
 .etablissements {
     display: flex;
     flex-flow: column;
     flex-basis: 100%;
+    padding-left: 0px;
+    list-style: none;
+    
+    li {
+        @include text-moyen;
+        background-color: white;
+        margin-bottom: 30px;
+        border-radius: 20px;
+    }
     img {
-        height: 100px;
+        height: 180px;
         width: 100%;
+        margin-left: 0%;
         display: flex;
         justify-content: space-between;
         object-fit: cover;
+        border-radius: 20px 20px 0px 0px;
     }
-    li {
-        @include text-moyen;
-        color: black;
+    span {
+        display: block;
+    }
+        h3 {
+            display: flex;
+            margin-bottom: 5px;
+        }
+        i {
 
-    }
+            display: flex;
+            justify-content:flex-end;
+            position: relative;
+        }
+
 }

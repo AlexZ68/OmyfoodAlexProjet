@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(fonts/Roboto.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Shrikhand";
+  src: url(fonts/Shrikhand.ttf) format("truetype");
+}
+
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 640px) {
+  * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  body {
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+#titre_principal {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  margin: auto;
+}
+
+#titre_principal img {
+  max-width: 40%;
+}
+
+nav {
+  text-align: center;
+}
+
+form {
+  background: gainsboro;
+  width: 100%;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+form ::-webkit-input-placeholder {
+  all: initial;
+  background: gainsboro;
+}
+
+form :-ms-input-placeholder {
+  all: initial;
+  background: gainsboro;
+}
+
+form ::-ms-input-placeholder {
+  all: initial;
+  background: gainsboro;
+}
+
+form ::placeholder {
+  all: initial;
+  background: gainsboro;
+}
+
+h2 {
+  font-size: 400;
+}
+
+h3 {
+  font-size: x-large;
+}
+/*# sourceMappingURL=main.css.map */

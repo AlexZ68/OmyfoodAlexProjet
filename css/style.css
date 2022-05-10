@@ -7,9 +7,6 @@
 body {
   font-family: "Roboto", Arial, Helvetica, sans-serif; }
 
-a:link {
-  text-decoration: none; }
-
 @media (max-width: 640px) {
   * {
     box-sizing: border-box; }
@@ -67,7 +64,7 @@ h3 {
   .exploration a {
     color: white; }
 
-aside {
+.tuto {
   padding: 30px 15px; }
 
 .tuto-etape li {
@@ -92,18 +89,37 @@ section {
   padding: 30px 15px;
   background-color: #fcf6f6; }
 
+a:link {
+  text-decoration: none;
+  color: black; }
+
 .etablissements {
   display: flex;
   flex-flow: column;
-  flex-basis: 100%; }
-  .etablissements img {
-    height: 100px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    object-fit: cover; }
+  flex-basis: 100%;
+  padding-left: 0px;
+  list-style: none; }
   .etablissements li {
     font-size: large;
-    color: black; }
+    background-color: white;
+    margin-bottom: 30px;
+    border-radius: 20px; }
+  .etablissements img {
+    height: 180px;
+    width: 100%;
+    margin-left: 0%;
+    display: flex;
+    justify-content: space-between;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px; }
+  .etablissements span {
+    display: block; }
+  .etablissements h3 {
+    display: flex;
+    margin-bottom: 5px; }
+  .etablissements i {
+    display: flex;
+    justify-content: flex-end;
+    position: relative; }
 
 /*# sourceMappingURL=style.css.map */
