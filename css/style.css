@@ -89,22 +89,21 @@ section {
   padding: 30px 15px;
   background-color: #fcf6f6; }
 
-a:link {
-  text-decoration: none;
-  color: black; }
-
-.etablissements {
+.etablissement {
   display: flex;
   flex-flow: column;
   flex-basis: 100%;
   padding-left: 0px;
   list-style: none; }
-  .etablissements li {
+  .etablissement .etablissement-liste {
     font-size: large;
     background-color: white;
     margin-bottom: 30px;
     border-radius: 20px; }
-  .etablissements img {
+  .etablissement .etablissement-lien {
+    text-decoration: none;
+    color: black; }
+  .etablissement img {
     height: 180px;
     width: 100%;
     margin-left: 0%;
@@ -112,15 +111,14 @@ a:link {
     justify-content: space-between;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px; }
-  .etablissements span {
-    display: block; }
-  .etablissements h3 {
+  .etablissement .etablissement-nom {
+    width: 50%;
     display: flex;
-    margin-bottom: 5px; }
-  .etablissements i {
-    display: flex;
-    justify-content: flex-end;
-    position: relative; }
+    margin-bottom: -8px; }
+  .etablissement .etablissement-heart {
+    background-color: red; }
+  .etablissement .etablissement-lieunom {
+    padding-top: 5px; }
 
 .footer {
   background-color: #3D3D3D; }

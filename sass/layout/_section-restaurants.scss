@@ -3,23 +3,22 @@ section {
     background-color: $background-tres-clair;
 }
 
-a:link {
-    text-decoration: none;
-    color: black;
-}
-
-.etablissements {
+.etablissement {
     display: flex;
     flex-flow: column;
     flex-basis: 100%;
     padding-left: 0px;
     list-style: none;
     
-    li {
+    .etablissement-liste {
         @include text-moyen;
         background-color: white;
         margin-bottom: 30px;
         border-radius: 20px;
+    }
+    .etablissement-lien {
+        text-decoration: none;
+        color: black;
     }
     img {
         height: 180px;
@@ -30,18 +29,16 @@ a:link {
         object-fit: cover;
         border-radius: 20px 20px 0px 0px;
     }
-    span {
-        display: block;
-    }
-        h3 {
+        .etablissement-nom {
+            width: 50%;
             display: flex;
-            margin-bottom: 5px;
+            margin-bottom: -8px;
         }
-        i {
-
-            display: flex;
-            justify-content:flex-end;
-            position: relative;
+        .etablissement-heart {
+            background-color: red;
+        }
+        .etablissement-lieunom {
+            padding-top: 5px;
         }
 
 }
