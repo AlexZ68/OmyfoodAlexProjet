@@ -140,7 +140,8 @@ section {
   .footer .footer__listelien {
     margin: 10px; }
   .footer .footer__lien {
-    color: white; }
+    color: white;
+    text-decoration: none; }
   .footer .footer__icon {
     margin-right: 10px;
     width: 15px; }
