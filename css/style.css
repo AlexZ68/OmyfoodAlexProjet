@@ -67,18 +67,24 @@ h3 {
 
 .tuto {
   padding: 30px 15px; }
-
-.tuto-etape li {
-  font-size: large;
-  border-radius: 20px;
-  background-color: #fcf6f6;
-  width: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 35px;
-  box-shadow: 0px 5px 10px #bcafaf; }
+  .tuto-list {
+    list-style: none;
+    counter-reset: liste; }
+    .tuto-list li {
+      font-size: large;
+      border-radius: 20px;
+      background-color: #fcf6f6;
+      width: auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 35px;
+      box-shadow: 0px 5px 10px #bcafaf; }
+      .tuto-list li::before {
+        background: red;
+        content: counter(liste);
+        counter-increment: liste; }
 
 .tuto-degustez {
   background-color: #ff79DA; }

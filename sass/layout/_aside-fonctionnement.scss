@@ -1,18 +1,29 @@
 .tuto {
     padding: 30px 15px;
-}
 
-.tuto-etape li {
-    @include text-moyen;
-    border-radius: 20px;
-    background-color: $background-tres-clair;
-    width: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 35px;
-    @include ombre;
+    &-list {
+        list-style: none;
+        counter-reset: liste;
+    
+        & li {
+            @include text-moyen;
+            border-radius: 20px;
+            background-color:   $background-tres-clair;
+            width: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 35px;
+            @include ombre;
+
+            &::before{
+                background: red;
+                content: counter(liste);
+                counter-increment: liste;
+            }
+        }
+    }
 }
 
 .tuto-degustez {
