@@ -124,7 +124,8 @@ section {
   .etablissement .etablissement-nom {
     margin: 0px; }
   .etablissement .etablissement-heart {
-    height: max-content; }
+    height: max-content;
+    background: linear-gradient(#9356DC, #ff79DA); }
   .etablissement .etablissement-lieunom {
     padding-top: 5px; }
 
