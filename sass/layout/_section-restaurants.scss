@@ -8,37 +8,44 @@ section {
     flex-flow: column;
     flex-basis: 100%;
     padding-left: 0px;
-    list-style: none;
-    
+    list-style: none;    
     .etablissement-liste {
         @include text-moyen;
         background-color: white;
         margin-bottom: 30px;
         border-radius: 20px;
     }
-    .etablissement-lien {
-        text-decoration: none;
-        color: black;
-    }
-    img {
-        height: 180px;
-        width: 100%;
-        margin-left: 0%;
-        display: flex;
-        justify-content: space-between;
-        object-fit: cover;
-        border-radius: 20px 20px 0px 0px;
-    }
-        .etablissement-nom {
-            width: 50%;
-            display: flex;
-            margin-bottom: -8px;
+        .etablissement-lien {
+            text-decoration: none;
+            color: black;
         }
-        .etablissement-heart {
-            background-color: red;
-        }
-        .etablissement-lieunom {
-            padding-top: 5px;
-        }
+            img {
+                height: 180px;
+                width: 100%;
+                margin-left: 0%;
+                display: flex;
+                justify-content: space-between;
+                object-fit: cover;
+                border-radius: 20px 20px 0px 0px;
+            }
+            .etablissement-descriptif {
+                display: flex;
+                align-items: center;
+                padding: 15px;
+            }
+            .etablissement-lieu {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+            }
+                .etablissement-nom {
+                    margin: 0px;
+                }
+                .etablissement-heart {
+                    height: max-content;
+                }
+                .etablissement-lieunom {
+                    padding-top: 5px;
+                }
 
 }

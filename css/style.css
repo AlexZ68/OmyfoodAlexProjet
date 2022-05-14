@@ -111,12 +111,18 @@ section {
     justify-content: space-between;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px; }
-  .etablissement .etablissement-nom {
-    width: 50%;
+  .etablissement .etablissement-descriptif {
     display: flex;
-    margin-bottom: -8px; }
+    align-items: center;
+    padding: 15px; }
+  .etablissement .etablissement-lieu {
+    display: flex;
+    flex-direction: column;
+    width: 100%; }
+  .etablissement .etablissement-nom {
+    margin: 0px; }
   .etablissement .etablissement-heart {
-    background-color: red; }
+    height: max-content; }
   .etablissement .etablissement-lieunom {
     padding-top: 5px; }
 
