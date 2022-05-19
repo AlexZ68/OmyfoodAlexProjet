@@ -1,0 +1,23 @@
+.titre {
+    @include header-page;
+
+    &-header {
+        margin: auto;
+        padding-left: 0px;
+    }
+
+        &-contenu {
+            list-style: none;
+        }
+
+            &-lien {
+                display: flex;
+                text-decoration: none;
+            }
+
+                &-fleche {
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                }
+}

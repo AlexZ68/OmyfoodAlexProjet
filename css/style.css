@@ -129,8 +129,9 @@ section {
     width: 100%; }
   .etablissement .etablissement-nom {
     margin: 0px; }
-  .etablissement .etablissement-heart {
-    height: max-content;
+  .etablissement .etablissement-heart i {
+    background-clip: text;
+    color: transparent;
     background: linear-gradient(#9356DC, #ff79DA); }
   .etablissement .etablissement-lieunom {
     padding-top: 5px; }
@@ -160,5 +161,24 @@ section {
   .footer .footer__icon {
     margin-right: 10px;
     width: 15px; }
+
+.titre {
+  text-align: center;
+  padding: 20px;
+  margin: auto; }
+  .titre img {
+    max-width: 60%; }
+  .titre-header {
+    margin: auto;
+    padding-left: 0px; }
+  .titre-contenu {
+    list-style: none; }
+  .titre-lien {
+    display: flex;
+    text-decoration: none; }
+  .titre-fleche {
+    position: relative;
+    display: flex;
+    align-items: center; }
 
 /*# sourceMappingURL=style.css.map */

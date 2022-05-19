@@ -42,8 +42,9 @@ section {
                 .etablissement-nom {
                     margin: 0px;
                 }
-                .etablissement-heart {
-                    height: max-content;
+                .etablissement-heart i{
+                    background-clip: text;
+                    color: transparent;
                     background: linear-gradient(#9356DC, #ff79DA);
                 }
                 .etablissement-lieunom {
