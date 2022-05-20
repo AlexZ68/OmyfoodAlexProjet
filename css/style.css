@@ -192,4 +192,31 @@ section {
   width: 100%;
   object-fit: cover; }
 
+section {
+  width: 100%;
+  background-color: #fcf6f6;
+  border-radius: 45px 45px 0px 0px;
+  position: relative;
+  margin-top: -50px;
+  padding-top: 15px; }
+
+.nom-resto {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px; }
+  .nom-resto h2 {
+    font-family: "Shrikhand", Arial, Helvetica, sans-serif;
+    width: 100%; }
+  .nom-resto i {
+    padding-right: 20px; }
+
+.menu {
+  margin: 0px;
+  padding: 5px; }
+  .menu-titre h4 {
+    font-weight: lighter; }
+  .menu-contenu ul {
+    list-style-type: none; }
+
 /*# sourceMappingURL=style.css.map */
