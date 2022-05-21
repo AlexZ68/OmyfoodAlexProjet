@@ -1,4 +1,4 @@
-section {
+#nos-restaurants {
     padding: 30px 15px;
     background-color: $background-tres-clair;
 }
@@ -16,7 +16,7 @@ section {
         border-radius: 20px;
         @include ombre;
     }
-        .etablissement-lien {
+        &-lien {
             text-decoration: none;
             color: black;
         }
@@ -29,26 +29,29 @@ section {
                 object-fit: cover;
                 border-radius: 20px 20px 0px 0px;
             }
-            .etablissement-descriptif {
+            &-descriptif {
                 display: flex;
                 align-items: center;
                 padding: 15px;
             }
-            .etablissement-lieu {
-                display: flex;
-                flex-direction: column;
-                width: 100%;
-            }
-                .etablissement-nom {
-                    margin: 0px;
+                &-lieu {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
                 }
-                .etablissement-heart i{
-                    background-clip: text;
-                    color: transparent;
-                    background: linear-gradient(#9356DC, #ff79DA);
+                    &-nom {
+                        margin: 0px;
+                    }
+                        &-lieunom {
+                            padding-top: 5px;
+                        }
+                &-heart i {
+                    color: black;
                 }
-                .etablissement-lieunom {
-                    padding-top: 5px;
+
+                &-heart i:hover {
+                    @include survol-coeur
                 }
+                
 
 }

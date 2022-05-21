@@ -51,3 +51,10 @@
         text-decoration: none;
     }
 }
+
+@mixin survol-coeur {
+    color: transparent;
+    font-weight: bold;
+    background: linear-gradient(#9356DC, #ff79DA);
+    -webkit-background-clip: text;
+}

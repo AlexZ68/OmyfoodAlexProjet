@@ -98,7 +98,7 @@ h3 {
 .tuto-text {
   padding-left: 20px; }
 
-section {
+#nos-restaurants {
   padding: 30px 15px;
   background-color: #fcf6f6; }
 
@@ -114,7 +114,7 @@ section {
     margin-bottom: 30px;
     border-radius: 20px;
     box-shadow: 0px 5px 10px #bcafaf; }
-  .etablissement .etablissement-lien {
+  .etablissement-lien {
     text-decoration: none;
     color: black; }
   .etablissement img {
@@ -125,22 +125,25 @@ section {
     justify-content: space-between;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px; }
-  .etablissement .etablissement-descriptif {
+  .etablissement-descriptif {
     display: flex;
     align-items: center;
     padding: 15px; }
-  .etablissement .etablissement-lieu {
+  .etablissement-lieu {
     display: flex;
     flex-direction: column;
     width: 100%; }
-  .etablissement .etablissement-nom {
+  .etablissement-nom {
     margin: 0px; }
-  .etablissement .etablissement-heart i {
-    background-clip: text;
-    color: transparent;
-    background: linear-gradient(#9356DC, #ff79DA); }
-  .etablissement .etablissement-lieunom {
+  .etablissement-lieunom {
     padding-top: 5px; }
+  .etablissement-heart i {
+    color: black; }
+  .etablissement-heart i:hover {
+    color: transparent;
+    font-weight: bold;
+    background: linear-gradient(#9356DC, #ff79DA);
+    -webkit-background-clip: text; }
 
 .footer {
   background-color: #3D3D3D; }
