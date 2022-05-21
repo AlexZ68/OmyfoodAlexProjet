@@ -86,6 +86,7 @@ h3 {
         .tuto-list li:hover i {
           color: #9356DC; }
       .tuto-list li::before {
+        color: white;
         position: relative;
         background: #9356DC;
         content: counter(liste);
