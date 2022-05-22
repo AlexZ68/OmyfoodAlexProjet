@@ -243,7 +243,8 @@ footer .footer {
     color: black; }
   .menu-nom {
     padding-top: 15px;
-    margin-bottom: 5px; }
+    margin-bottom: 5px;
+    font-size: large; }
   .menu-detail {
     font-weight: 100;
     margin-top: 5px;
