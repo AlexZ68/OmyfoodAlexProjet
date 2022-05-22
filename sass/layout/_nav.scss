@@ -32,3 +32,7 @@ h3 {
 .exploration {
     @include bouton;
 }
+
+.exploration:hover {
+    @include survol-bouton;
+}

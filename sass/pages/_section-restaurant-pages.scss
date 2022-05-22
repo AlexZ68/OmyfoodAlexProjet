@@ -76,5 +76,15 @@
     &-prix {
         font-weight: bold;
         padding-right: 20px;
-    }       
+    }
+}
+
+.bouton-menu {
+    text-align: center;
+    button {
+        @include bouton;
+    }
+    button:hover {
+        @include survol-bouton;
+    }
 }

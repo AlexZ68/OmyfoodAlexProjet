@@ -52,6 +52,12 @@
     }
 }
 
+@mixin survol-bouton {
+    filter: brightness(1.2);
+    transform: scale(1);
+    transition: 1.2s;
+}
+
 @mixin survol-coeur {
     color: transparent;
     font-weight: bold;
