@@ -12,15 +12,18 @@
     flex-direction: row;
     align-items: center;
     padding-right: 20px;
+    justify-content: space-between;
 
     h2 {
-        font-family: "Shrikhand", Arial, Helvetica, sans-serif;
+        font-family: "Shrikhand", cursive;
         font-weight: bold;
-        width: 100%;
     }
 
     i {
         padding-right: 20px;
+    }
+    i:hover {
+        @include survol-coeur
     }
 }
 

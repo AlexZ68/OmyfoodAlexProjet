@@ -208,13 +208,18 @@ h3 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-right: 20px; }
+  padding-right: 20px;
+  justify-content: space-between; }
   .nom-resto h2 {
-    font-family: "Shrikhand", Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    width: 100%; }
+    font-family: "Shrikhand", cursive;
+    font-weight: bold; }
   .nom-resto i {
     padding-right: 20px; }
+  .nom-resto i:hover {
+    color: transparent;
+    font-weight: bold;
+    background: linear-gradient(#9356DC, #ff79DA);
+    -webkit-background-clip: text; }
 
 .menu {
   margin: 0px; }
