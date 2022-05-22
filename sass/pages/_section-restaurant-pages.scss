@@ -46,21 +46,25 @@
         border-radius: 10px;
         padding-left: 10px;
         margin-bottom: 20px;
+        @include ombre
     }
     a {
         text-decoration: none;
         color: black;
     }
     &-nom {
-        padding-top: 10px;
+        padding-top: 15px;
         margin-bottom: 5px;
     }
     &-detail {
         font-weight: 100;
         margin-top: 5px;
-        padding-bottom: 10px;
+        padding-bottom: 15px;
+        display: flex;
+        justify-content: space-between;
     }
     &-prix {
         font-weight: bold;
+        padding-right: 20px;
     }       
 }
