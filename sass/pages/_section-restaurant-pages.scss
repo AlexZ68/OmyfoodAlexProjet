@@ -4,19 +4,20 @@
     border-radius: 45px 45px 0px 0px;
     position: relative;
     margin-top: -50px;
-    padding: 20px;
+    padding: 15px;
 }
 
 .nom-resto {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-right: 20px;
+    padding: 5px;
     justify-content: space-between;
 
     h2 {
         font-family: "Shrikhand", cursive;
         font-weight: bold;
+        font-size: 25px;
     }
 
     i {
@@ -35,13 +36,17 @@
         margin-top: 10px;
         h4 {
         font-weight: lighter;
+        font-size: medium;
         }
     }
 
-    &-contenu ul {
+    &-contenu {
+        margin-bottom: 45px;
+        ul {
         list-style: none;
         padding-left: 0px;
         font-weight: bolder;
+        }
     }
     &-choix {
         width: 100%;
@@ -62,6 +67,7 @@
     }
     &-detail {
         font-weight: 100;
+        font-size: 15px;
         margin-top: 5px;
         padding-bottom: 15px;
         display: flex;
