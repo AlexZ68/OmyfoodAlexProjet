@@ -144,7 +144,9 @@ h3 {
     color: transparent;
     font-weight: bold;
     background: linear-gradient(#9356DC, #ff79DA);
-    -webkit-background-clip: text; }
+    -webkit-background-clip: text;
+    transform: scale(1);
+    transition: 1.2s; }
 
 footer .footer {
   background-color: #3D3D3D;
@@ -219,7 +221,9 @@ footer .footer {
     color: transparent;
     font-weight: bold;
     background: linear-gradient(#9356DC, #ff79DA);
-    -webkit-background-clip: text; }
+    -webkit-background-clip: text;
+    transform: scale(1);
+    transition: 1.2s; }
 
 .menu {
   margin: 0px; }

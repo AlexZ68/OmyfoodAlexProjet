@@ -57,6 +57,8 @@
     font-weight: bold;
     background: linear-gradient(#9356DC, #ff79DA);
     -webkit-background-clip: text;
+    transform: scale(1);
+    transition: 1.2s;
 }
 
 @mixin footer {
