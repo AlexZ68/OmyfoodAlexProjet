@@ -58,3 +58,36 @@
     background: linear-gradient(#9356DC, #ff79DA);
     -webkit-background-clip: text;
 }
+
+@mixin footer {
+    .footer {
+        background-color: #3D3D3D;
+        display: flex;
+        flex-direction: column;
+        padding-left: 15px;
+        &-logo {
+            font-family: "Shrikhand", Arial, Helvetica, sans-serif;
+            color: white;
+            margin: 10px;
+            margin-top: 20px;
+            font-size: x-large;
+        }
+        &-liste {
+            list-style: none;
+            font-size: large;
+            margin-top: 0px;
+            padding-left: 0px;
+        }
+        &-listelien {
+            margin: 10px;
+        }
+        &-lien {
+            color: white;
+            text-decoration: none;
+        }
+        &-icon {
+            margin-right: 10px;
+            width: 15px;
+        } 
+    }                                                                                                                                                 
+}
