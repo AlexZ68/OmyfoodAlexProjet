@@ -39,18 +39,32 @@
         font-size: medium;
         }
     }
+    &-contenu{
+        display: flex;
+        margin-bottom: 20px;
+        overflow: hidden;
+        border-radius: 10px;
+        @include ombre
+    }
     &-choix {
         display: flex;
         width: 100%;
         background-color: white;
         overflow: hidden;
-        border-radius: 10px;
         padding-left: 10px;
-        margin-bottom: 20px;
-        @include ombre
+        transform: scale(1);
+        transition: transform 1.2s;
     }
-    &-choix:hover {
+    &-choix:hover + .menu-check {
         cursor: pointer;
+        height: auto;
+        width: 20%;
+        transform: scale(1);
+        transition: 0.8s;
+        i {
+            transform: rotate(360deg);
+            transition: 1s;
+        }
     }
     &-text {
         width: inherit;
@@ -85,21 +99,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 130%;
+        font-size: 135%;
         width: 0px;
         color: white;
         background-color: $couleur-tertiaire;
         border-radius: 0px 10px 10px 0px;
-    }
-    &-check:hover {
-        width: 25%;
-        transform: translateX(1);
-        transition: 1.2s;
-    }
-    &-check i:hover {
-        transform: rotate(360deg);
-        transition: 1s;
-    }
+    }                                    
 }
 
 .bouton-menu {
