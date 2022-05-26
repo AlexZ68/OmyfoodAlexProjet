@@ -165,7 +165,8 @@ footer .footer {
     color: white;
     margin: 10px;
     margin-top: 20px;
-    font-size: x-large; }
+    font-size: x-large;
+    font-weight: 100; }
   footer .footer-liste {
     list-style: none;
     font-size: large;
@@ -220,7 +221,7 @@ footer .footer {
   justify-content: space-between; }
   .nom-resto h2 {
     font-family: "Shrikhand", cursive;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 25px; }
   .nom-resto i {
     padding-right: 20px; }
@@ -236,7 +237,7 @@ footer .footer {
   margin: 0px; }
   .menu-titre {
     margin-bottom: 10px;
-    margin-top: 10px; }
+    margin-top: 45px; }
     .menu-titre h4 {
       font-weight: lighter;
       font-size: medium; }
@@ -271,6 +272,7 @@ footer .footer {
     .menu-text h3 {
       margin: 0px;
       font-size: large;
+      font-weight: 500;
       padding-top: 10px;
       padding-bottom: 5px;
       overflow: hidden;
@@ -285,8 +287,8 @@ footer .footer {
   .menu-prix {
     display: flex;
     align-items: flex-end;
-    font-weight: bold;
-    padding-right: 20px;
+    font-weight: 500;
+    padding-right: 19px;
     padding-bottom: 10px; }
   .menu-check {
     display: flex;
@@ -332,7 +334,8 @@ footer .footer {
     color: white;
     margin: 10px;
     margin-top: 20px;
-    font-size: x-large; }
+    font-size: x-large;
+    font-weight: 100; }
   footer .footer-liste {
     list-style: none;
     font-size: large;
