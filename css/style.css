@@ -217,12 +217,13 @@ footer .footer {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 5px;
+  padding-left: 5px;
+  height: 75px;
   justify-content: space-between; }
   .nom-resto h2 {
     font-family: "Shrikhand", cursive;
     font-weight: 500;
-    font-size: 25px; }
+    font-size: 27px; }
   .nom-resto i {
     padding-right: 20px; }
   .nom-resto i:hover {
@@ -233,11 +234,13 @@ footer .footer {
     transform: scale(1);
     transition: 1.2s; }
 
+.entrees, .plats, .desserts {
+  margin-bottom: 40px; }
+
 .menu {
   margin: 0px; }
   .menu-titre {
-    margin-bottom: 10px;
-    margin-top: 45px; }
+    margin-bottom: 10px; }
     .menu-titre h4 {
       font-weight: lighter;
       font-size: medium; }
