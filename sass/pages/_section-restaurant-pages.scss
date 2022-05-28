@@ -41,6 +41,13 @@
         h4 {
         font-weight: lighter;
         font-size: medium;
+        i {
+            display: flex;
+            width: 12%;
+            height: 3px;
+            background-color: $couleur-tertiaire;
+            margin-top: 4px;
+        }
         }
     }
     &-contenu{
