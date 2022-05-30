@@ -264,13 +264,10 @@ footer .footer {
     padding-left: 10px;
     transform: scale(1);
     transition: transform 1.2s; }
-  .menu-choix:hover + .menu-check {
+  .menu-contenu:hover .menu-check {
     cursor: pointer;
-    height: auto;
-    width: 20%;
-    transform: scale(1);
-    transition: 0.8s; }
-    .menu-choix:hover + .menu-check i {
+    width: 20%; }
+    .menu-contenu:hover .menu-check i {
       transform: rotate(360deg);
       transition: 1s; }
   .menu-text {
@@ -307,7 +304,8 @@ footer .footer {
     width: 0px;
     color: white;
     background-color: #99E2D0;
-    border-radius: 0px 10px 10px 0px; }
+    border-radius: 0px 10px 10px 0px;
+    transition: 0.8s; }
 
 .bouton-menu {
   text-align: center; }
