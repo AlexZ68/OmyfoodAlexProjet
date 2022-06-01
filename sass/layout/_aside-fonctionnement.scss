@@ -27,7 +27,6 @@
       
             &::before{
                 color: white;
-                position: relative;
                 background:$couleur-primaire;
                 content: counter(liste);
                 counter-increment: liste;

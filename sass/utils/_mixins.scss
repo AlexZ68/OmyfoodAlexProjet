@@ -38,6 +38,7 @@
     all: initial;
     font-family: Roboto, Arial, Helvetica, sans-serif;
     font-weight: 500;
+    color: white;
     @include text-moyen;
     background: linear-gradient($couleur-secondaire, $couleur-primaire);
     padding: 15px 25px;
@@ -45,12 +46,7 @@
     margin-top: 20px;
     margin-bottom: 50px;
     @include ombre;
-    /*transform: scale(1);
     transition: transform 0.8s;
-    a {
-        color: white;
-        text-decoration: none;
-    }*/
 }
 
 @mixin survol-bouton {
@@ -64,7 +60,6 @@
     font-weight: bold;
     background: linear-gradient(#9356DC, #ff79DA);
     -webkit-background-clip: text;
-    transform: scale(1);
     transition: 1.2s;
 }
 

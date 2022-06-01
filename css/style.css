@@ -15,6 +15,61 @@ body {
     width: auto;
     margin: 0px;
     padding: 0px; } }
+/*body .loader {
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;*/
+.loader-animation {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  animation: loader 4s; }
+  .loader-animation .lettre {
+    color: #ff79DA;
+    font-family: Shrikhand;
+    font-size: 200%;
+    letter-spacing: 15px;
+    animation: lancement 1.5s linear infinite; }
+  .loader-animation :nth-child(1) {
+    animation-delay: 0.1s; }
+  .loader-animation :nth-child(2) {
+    animation-delay: 0.2s; }
+  .loader-animation :nth-child(3) {
+    animation-delay: 0.3s; }
+  .loader-animation :nth-child(4) {
+    animation-delay: 0.4s; }
+  .loader-animation :nth-child(5) {
+    animation-delay: 0.5s; }
+  .loader-animation :nth-child(6) {
+    animation-delay: 0.6s; }
+  .loader-animation :nth-child(7) {
+    animation-delay: 0.7s; }
+  .loader-animation :nth-child(8) {
+    animation-delay: 0.8s; }
+
+@keyframes lancement {
+  0% {
+    color: #ff79DA;
+    text-shadow: 0px 0px 7px #ff79DA; }
+  90% {
+    color: #99E2D0;
+    text-shadow: none; }
+  100% {
+    color: #9356DC;
+    text-shadow: 0px 0px 7px #ff79DA;
+    opacity: 0px; } }
+@keyframes loader {
+  100% {
+    opacity: 0; } }
 .logo-accueil {
   padding-bottom: 20px;
   padding-top: 20px;
@@ -53,6 +108,7 @@ h3 {
   all: initial;
   font-family: Roboto, Arial, Helvetica, sans-serif;
   font-weight: 500;
+  color: white;
   font-size: large;
   background: linear-gradient(#ff79DA, #9356DC);
   padding: 15px 25px;
@@ -60,12 +116,7 @@ h3 {
   margin-top: 20px;
   margin-bottom: 50px;
   box-shadow: 0px 5px 10px lightgray;
-  /*transform: scale(1);
-  transition: transform 0.8s;
-  a {
-      color: white;
-      text-decoration: none;
-  }*/ }
+  transition: transform 0.8s; }
 
 .exploration:hover {
   filter: brightness(1.2);
@@ -94,7 +145,6 @@ h3 {
           color: #9356DC; }
       .tuto-list li::before {
         color: white;
-        position: relative;
         background: #9356DC;
         content: counter(liste);
         counter-increment: liste;
@@ -152,7 +202,6 @@ h3 {
     font-weight: bold;
     background: linear-gradient(#9356DC, #ff79DA);
     -webkit-background-clip: text;
-    transform: scale(1);
     transition: 1.2s; }
 
 footer .footer {
@@ -231,7 +280,6 @@ footer .footer {
     font-weight: bold;
     background: linear-gradient(#9356DC, #ff79DA);
     -webkit-background-clip: text;
-    transform: scale(1);
     transition: 1.2s; }
 
 .entrees, .plats, .desserts {
@@ -314,6 +362,7 @@ footer .footer {
     all: initial;
     font-family: Roboto, Arial, Helvetica, sans-serif;
     font-weight: 500;
+    color: white;
     font-size: large;
     background: linear-gradient(#ff79DA, #9356DC);
     padding: 15px 25px;
@@ -321,12 +370,7 @@ footer .footer {
     margin-top: 20px;
     margin-bottom: 50px;
     box-shadow: 0px 5px 10px lightgray;
-    /*transform: scale(1);
-    transition: transform 0.8s;
-    a {
-        color: white;
-        text-decoration: none;
-    }*/ }
+    transition: transform 0.8s; }
   .bouton-menu button:hover {
     filter: brightness(1.2);
     transform: scale(1.1);
