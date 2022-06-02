@@ -5,7 +5,8 @@
   font-family: "Shrikhand";
   src: url(fonts/Shrikhand.ttf) format("truetype"); }
 body {
-  font-family: "Roboto", Arial, Helvetica, sans-serif; }
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  margin: 0px; }
 
 @media (max-width: 640px) {
   * {
@@ -15,46 +16,41 @@ body {
     width: auto;
     margin: 0px;
     padding: 0px; } }
-/*body .loader {
-    height: 100%;
-    width: 100%;
-    background-color: red;
-    display: flex;
-    justify-content: center;
-    align-items: center;*/
-  .loader-animation {
-    height: 100%;
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    background-color: red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    animation: loader 4s; }
-    .loader-animation .lettre {
-      color: #ff79DA;
-      font-family: Shrikhand;
-      font-size: 200%;
-      letter-spacing: 15px;
-      animation: lancement 1.5s linear infinite; }
-    .loader-animation :nth-child(1) {
-      animation-delay: 0.1s; }
-    .loader-animation :nth-child(2) {
-      animation-delay: 0.2s; }
-    .loader-animation :nth-child(3) {
-      animation-delay: 0.3s; }
-    .loader-animation :nth-child(4) {
-      animation-delay: 0.4s; }
-    .loader-animation :nth-child(5) {
-      animation-delay: 0.5s; }
-    .loader-animation :nth-child(6) {
-      animation-delay: 0.6s; }
-    .loader-animation :nth-child(7) {
-      animation-delay: 0.7s; }
-    .loader-animation :nth-child(8) {
-      animation-delay: 0.8s; }
+.loader-animation {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  animation: loader 3s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards; }
+  .loader-animation .lettre {
+    color: #ff79DA;
+    font-family: Shrikhand;
+    font-size: 200%;
+    letter-spacing: 15px;
+    animation: lancement 1.5s linear infinite; }
+  .loader-animation :nth-child(1) {
+    animation-delay: 0.1s; }
+  .loader-animation :nth-child(2) {
+    animation-delay: 0.2s; }
+  .loader-animation :nth-child(3) {
+    animation-delay: 0.3s; }
+  .loader-animation :nth-child(4) {
+    animation-delay: 0.4s; }
+  .loader-animation :nth-child(5) {
+    animation-delay: 0.5s; }
+  .loader-animation :nth-child(6) {
+    animation-delay: 0.6s; }
+  .loader-animation :nth-child(7) {
+    animation-delay: 0.7s; }
+  .loader-animation :nth-child(8) {
+    animation-delay: 0.8s; }
 
 @keyframes lancement {
   0% {
@@ -68,8 +64,12 @@ body {
     text-shadow: 0px 0px 7px #ff79DA;
     opacity: 0px; } }
 @keyframes loader {
+  99% {
+    height: 100%;
+    display: none; }
   100% {
-    opacity: 0; } }
+    opacity: 0;
+    height: 0; } }
 .logo-accueil {
   padding-bottom: 20px;
   padding-top: 20px;
