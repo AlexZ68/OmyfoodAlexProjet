@@ -177,6 +177,14 @@ h3 {
   .etablissement-lien {
     text-decoration: none;
     color: black; }
+  .etablissement-nouveau {
+    position: absolute;
+    background-color: #99E2D0;
+    color: darkcyan;
+    border-radius: 5px;
+    padding: 10px;
+    right: 30px;
+    margin-top: 15px; }
   .etablissement img {
     height: 180px;
     width: 100%;

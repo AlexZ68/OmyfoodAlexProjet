@@ -96,3 +96,13 @@
         } 
     }                                                                                                                                                 
 }
+
+@mixin nouveau {
+    position: absolute;
+    background-color: $couleur-tertiaire;
+    color: darkcyan;
+    border-radius: 5px;
+    padding: 10px;
+    right: 30px;
+    margin-top: 15px;
+}
