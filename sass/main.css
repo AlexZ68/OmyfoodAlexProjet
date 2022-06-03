@@ -172,6 +172,7 @@ body {
 nav {
   text-align: center;
   background-color: #fcf6f6;
+  padding-bottom: 70px;
 }
 
 #lieu {
@@ -195,6 +196,7 @@ h2 {
 
 h3 {
   font-size: large;
+  padding-bottom: 30px;
 }
 
 .sous_titre {

@@ -1,6 +1,7 @@
 nav {
     text-align: center;
     background-color: $background-tres-clair;
+    padding-bottom: 70px;
 } 
 
 #lieu {
@@ -14,7 +15,7 @@ nav {
 }  
 
 h2 {
-    @include text-grand
+    @include text-grand;
 }
 
 .titre_secondaire {
@@ -22,7 +23,8 @@ h2 {
 }
 
 h3 {
-    @include text-moyen
+    @include text-moyen;
+    padding-bottom: 30px;
 }
 
 .sous_titre {
