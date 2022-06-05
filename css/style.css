@@ -247,17 +247,20 @@ footer .footer {
   .titre img {
     max-width: 60%; }
   .titre-header {
-    margin: auto;
+    width: 100%;
+    margin: 0px;
     padding-left: 0px; }
   .titre-contenu {
     list-style: none; }
   .titre-lien {
     display: flex;
-    text-decoration: none; }
+    text-decoration: none;
+    justify-content: center; }
   .titre-fleche {
     position: relative;
     display: flex;
-    align-items: center; }
+    align-items: center;
+    right: 0%; }
 
 .photo-resto img {
   height: 250px;

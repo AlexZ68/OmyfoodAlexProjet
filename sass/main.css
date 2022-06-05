@@ -433,7 +433,8 @@ footer .footer-icon {
 }
 
 .titre-header {
-  margin: auto;
+  width: 100%;
+  margin: 0px;
   padding-left: 0px;
 }
 
@@ -446,6 +447,9 @@ footer .footer-icon {
   display: -ms-flexbox;
   display: flex;
   text-decoration: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .titre-fleche {
@@ -456,6 +460,7 @@ footer .footer-icon {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  right: 0%;
 }
 
 .photo-resto img {
