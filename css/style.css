@@ -313,7 +313,17 @@ footer .footer {
     margin-bottom: 20px;
     overflow: hidden;
     border-radius: 10px;
-    box-shadow: 0px 5px 10px lightgray; }
+    box-shadow: 0px 5px 10px lightgray;
+    animation: menu 1.2s;
+    animation-fill-mode: backwards; }
+  .menu :nth-child(2) {
+    animation-delay: calc(1s/4); }
+  .menu :nth-child(3) {
+    animation-delay: calc(2s/4); }
+  .menu :nth-child(4) {
+    animation-delay: calc(3s/4); }
+  .menu :nth-child(5) {
+    animation-delay: calc(4s/4); }
   .menu-choix {
     display: flex;
     width: 100%;
@@ -386,6 +396,13 @@ footer .footer {
     transform: scale(1.1);
     transition: 0.8s; }
 
+@keyframes menu {
+  0% {
+    transform: translateY(15px);
+    opacity: 0; }
+  100% {
+    transform: translateY(0px);
+    opacity: 1; } }
 footer .footer {
   background-color: #3D3D3D;
   display: flex;

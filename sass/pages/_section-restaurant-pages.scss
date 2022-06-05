@@ -55,8 +55,23 @@
         margin-bottom: 20px;
         overflow: hidden;
         border-radius: 10px;
-        @include ombre
+        @include ombre;
+        animation: menu 1.2s;    
+        animation-fill-mode: backwards;
     }
+    :nth-child(2) {
+        animation-delay: calc(1s/4);
+    }
+    :nth-child(3) {
+        animation-delay: calc(2s/4);
+    }
+    :nth-child(4) {
+        animation-delay: calc(3s/4);
+    }
+    :nth-child(5) {
+        animation-delay: calc(4s/4);
+    }
+
     &-choix {
         display: flex;
         width: 100%;
@@ -125,5 +140,19 @@
     }
     button:hover {
         @include survol-bouton;
+    }
+}
+
+@keyframes menu {
+    0%{
+        transform: translateY(15px);
+        opacity: 0;
+    }
+    
+    
+    
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
     }
 }
