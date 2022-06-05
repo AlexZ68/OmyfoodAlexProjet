@@ -133,15 +133,22 @@
     }                                    
 }
 
-.bouton-menu {
-    text-align: center;
-    button {
-        @include bouton;
-    }
-    button:hover {
+.bouton-commande {
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+
+.commander {
+    @include bouton;
+    &:hover {
         @include survol-bouton;
     }
+    
 }
+
+
+
 
 @keyframes menu {
     0%{

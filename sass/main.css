@@ -664,11 +664,20 @@ footer .footer-icon {
   transition: 0.8s;
 }
 
-.bouton-menu {
-  text-align: center;
+.bouton-commande {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.bouton-menu button {
+.commander {
   /* modif dans nav */
   all: initial;
   font-family: Roboto, Arial, Helvetica, sans-serif;
@@ -689,7 +698,7 @@ footer .footer-icon {
   transition: transform 0.8s, -webkit-transform 0.8s;
 }
 
-.bouton-menu button:hover {
+.commander:hover {
   -webkit-filter: brightness(1.2);
           filter: brightness(1.2);
   -webkit-transform: scale(1.1);

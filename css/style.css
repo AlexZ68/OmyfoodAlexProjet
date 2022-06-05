@@ -378,23 +378,26 @@ footer .footer {
     border-radius: 0px 10px 10px 0px;
     transition: 0.8s; }
 
-.bouton-menu {
-  text-align: center; }
-  .bouton-menu button {
-    /* modif dans nav */
-    all: initial;
-    font-family: Roboto, Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    color: white;
-    font-size: large;
-    background: linear-gradient(#ff79DA, #9356DC);
-    padding: 15px 25px;
-    border-radius: 50px;
-    margin-top: 20px;
-    margin-bottom: 50px;
-    box-shadow: 0px 5px 10px lightgray;
-    transition: transform 0.8s; }
-  .bouton-menu button:hover {
+.bouton-commande {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.commander {
+  /* modif dans nav */
+  all: initial;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  color: white;
+  font-size: large;
+  background: linear-gradient(#ff79DA, #9356DC);
+  padding: 15px 25px;
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  box-shadow: 0px 5px 10px lightgray;
+  transition: transform 0.8s; }
+  .commander:hover {
     filter: brightness(1.2);
     transform: scale(1.1);
     transition: 0.8s; }
