@@ -4,10 +4,11 @@
     margin: 0px;
     padding: 0px;
     background-color: black;
+    z-index: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    position: fixed;
     animation: loader 3s;
     animation-delay: 3s;
     animation-fill-mode: forwards;

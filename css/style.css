@@ -22,10 +22,11 @@ body {
   margin: 0px;
   padding: 0px;
   background-color: black;
+  z-index: 1;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
+  position: fixed;
   animation: loader 3s;
   animation-delay: 3s;
   animation-fill-mode: forwards; }
@@ -186,6 +187,7 @@ h3 {
     right: 30px;
     margin-top: 15px; }
   .etablissement img {
+    position: static;
     height: 180px;
     width: 100%;
     margin-left: 0%;
