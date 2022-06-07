@@ -240,27 +240,20 @@ footer .footer {
     margin-right: 10px;
     width: 15px; }
 
-.titre {
-  text-align: center;
-  padding: 20px;
-  margin: auto; }
-  .titre img {
-    max-width: 60%; }
-  .titre-header {
-    width: 100%;
-    margin: 0px;
-    padding-left: 0px; }
-  .titre-contenu {
-    list-style: none; }
-  .titre-lien {
-    display: flex;
+header {
+  padding: 20px; }
+  header .titre-lien {
     text-decoration: none;
-    justify-content: center; }
-  .titre-fleche {
-    position: relative;
-    display: flex;
-    align-items: center;
-    right: 0%; }
+    display: flex; }
+    header .titre-lien .titre-logo {
+      width: 100%;
+      display: flex;
+      justify-content: center; }
+      header .titre-lien .titre-logo img {
+        max-width: 50%; }
+    header .titre-lien .titre-fleche {
+      display: flex;
+      align-items: center; }
 
 .photo-resto img {
   height: 250px;

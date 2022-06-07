@@ -1,26 +1,7 @@
-.titre {
-    @include header-page;
+header {
+    padding: 20px;
 
-    &-header {
-        width: 100%;
-        margin: 0px;
-        padding-left: 0px;
+    .titre-lien {
+        @include header-page;
     }
-
-        &-contenu {
-            list-style: none;
-        }
-
-            &-lien {
-                display: flex;
-                text-decoration: none;
-                justify-content: center;
-            }
-
-                &-fleche {
-                    position: relative;
-                    display: flex;
-                    align-items: center;
-                    right: 0%;
-                }
 }

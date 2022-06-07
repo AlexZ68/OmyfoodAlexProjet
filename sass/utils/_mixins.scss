@@ -10,11 +10,19 @@
 }
 
 @mixin header-page {
-    text-align: center;
-    padding: 20px;
-    margin: auto;
-    img {
-        max-width: 60%;
+    text-decoration: none;
+    display: flex;
+    .titre-logo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        img {
+            max-width: 50%;
+        }
+    }
+    .titre-fleche {
+        display: flex;
+        align-items: center;
     }
 }
 

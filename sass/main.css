@@ -422,45 +422,38 @@ footer .footer-icon {
   width: 15px;
 }
 
-.titre {
-  text-align: center;
+header {
   padding: 20px;
-  margin: auto;
 }
 
-.titre img {
-  max-width: 60%;
-}
-
-.titre-header {
-  width: 100%;
-  margin: 0px;
-  padding-left: 0px;
-}
-
-.titre-contenu {
-  list-style: none;
-}
-
-.titre-lien {
+header .titre-lien {
+  text-decoration: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  text-decoration: none;
+}
+
+header .titre-lien .titre-logo {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
-.titre-fleche {
-  position: relative;
+header .titre-lien .titre-logo img {
+  max-width: 50%;
+}
+
+header .titre-lien .titre-fleche {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  right: 0%;
 }
 
 .photo-resto img {
