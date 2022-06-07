@@ -422,18 +422,18 @@ footer .footer-icon {
   width: 15px;
 }
 
-header {
+.titre-page {
   padding: 20px;
 }
 
-header .titre-lien {
+.titre-page .titre-lien {
   text-decoration: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-header .titre-lien .titre-logo {
+.titre-page .titre-lien .titre-logo {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -443,11 +443,11 @@ header .titre-lien .titre-logo {
           justify-content: center;
 }
 
-header .titre-lien .titre-logo img {
+.titre-page .titre-lien .titre-logo img {
   max-width: 50%;
 }
 
-header .titre-lien .titre-fleche {
+.titre-page .titre-lien .titre-fleche {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

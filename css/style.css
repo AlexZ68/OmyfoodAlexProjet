@@ -240,18 +240,18 @@ footer .footer {
     margin-right: 10px;
     width: 15px; }
 
-header {
+.titre-page {
   padding: 20px; }
-  header .titre-lien {
+  .titre-page .titre-lien {
     text-decoration: none;
     display: flex; }
-    header .titre-lien .titre-logo {
+    .titre-page .titre-lien .titre-logo {
       width: 100%;
       display: flex;
       justify-content: center; }
-      header .titre-lien .titre-logo img {
+      .titre-page .titre-lien .titre-logo img {
         max-width: 50%; }
-    header .titre-lien .titre-fleche {
+    .titre-page .titre-lien .titre-fleche {
       display: flex;
       align-items: center; }
 
