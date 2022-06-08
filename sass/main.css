@@ -111,7 +111,7 @@ body {
   100% {
     color: #9356DC;
     text-shadow: 0px 0px 7px #ff79DA;
-    opacity: 0px;
+    opacity: 0;
   }
 }
 
@@ -127,7 +127,7 @@ body {
   100% {
     color: #9356DC;
     text-shadow: 0px 0px 7px #ff79DA;
-    opacity: 0px;
+    opacity: 0;
   }
 }
 
@@ -324,7 +324,6 @@ h3 {
 }
 
 .etablissement img {
-  position: static;
   height: 180px;
   width: 100%;
   margin-left: 0%;
