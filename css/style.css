@@ -213,6 +213,7 @@ h3 {
     font-weight: bold;
     background: linear-gradient(#9356DC, #ff79DA);
     -webkit-background-clip: text;
+    background-clip: text;
     transition: 1.2s; }
 
 footer .footer {
@@ -286,6 +287,7 @@ footer .footer {
     font-weight: bold;
     background: linear-gradient(#9356DC, #ff79DA);
     -webkit-background-clip: text;
+    background-clip: text;
     transition: 1.2s; }
 
 .entrees, .plats, .desserts {
