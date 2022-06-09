@@ -119,12 +119,13 @@ h3 {
   margin-top: 20px;
   margin-bottom: 50px;
   box-shadow: 0px 5px 10px lightgray;
-  transition: transform 0.8s; }
+  transition: transform 0.5s;
+  transition: 0.5s ease-in-out; }
 
 .exploration:hover {
+  cursor: pointer;
   filter: brightness(1.2);
-  transform: scale(1.1);
-  transition: 0.8s; }
+  transform: scale(1.1); }
 
 .tuto {
   padding: 30px 15px; }
@@ -376,7 +377,9 @@ footer .footer {
 .bouton-commande {
   display: flex;
   flex-direction: row;
-  justify-content: center; }
+  justify-content: center;
+  text-decoration: none;
+  cursor: initial; }
 
 .commander {
   /* modif dans nav */
@@ -391,11 +394,12 @@ footer .footer {
   margin-top: 20px;
   margin-bottom: 50px;
   box-shadow: 0px 5px 10px lightgray;
-  transition: transform 0.8s; }
+  transition: transform 0.5s;
+  transition: 0.5s ease-in-out; }
   .commander:hover {
+    cursor: pointer;
     filter: brightness(1.2);
-    transform: scale(1.1);
-    transition: 0.8s; }
+    transform: scale(1.1); }
 
 @keyframes menu {
   0% {
