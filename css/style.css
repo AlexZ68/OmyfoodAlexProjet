@@ -125,7 +125,8 @@ h3 {
 .exploration:hover {
   cursor: pointer;
   filter: brightness(1.2);
-  transform: scale(1.1); }
+  transform: scale(1.1);
+  box-shadow: 0px 5px 10px gray; }
 
 .tuto {
   padding: 30px 15px; }
@@ -399,7 +400,8 @@ footer .footer {
   .commander:hover {
     cursor: pointer;
     filter: brightness(1.2);
-    transform: scale(1.1); }
+    transform: scale(1.1);
+    box-shadow: 0px 5px 10px gray; }
 
 @keyframes menu {
   0% {

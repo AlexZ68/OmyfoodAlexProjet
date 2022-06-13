@@ -42,6 +42,10 @@
     box-shadow: 0px 5px 10px $couleur-ombre; 
 }
 
+@mixin ombre-gray {
+    box-shadow: 0px 5px 10px $couleur-ombre-gray;
+}
+
 @mixin bouton { /* modif dans nav */
     all: initial;
     font-family: Roboto, Arial, Helvetica, sans-serif;
@@ -62,6 +66,7 @@
     cursor: pointer;
     filter: brightness(1.2);
     transform: scale(1.1);
+    @include ombre-gray;
 }
 
 @mixin survol-coeur {
